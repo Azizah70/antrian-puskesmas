@@ -12,6 +12,11 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(PolyMasterSeeder::class);
+          dev_fano
+
+        $this->call(IconPolyMasterSeeder::class);
+        $this->call(HealthAgencySeeder::class);
+          master
         $this->call(UserSeeder::class);
         $this->call(HealthAgencySeeder::class);
     }
